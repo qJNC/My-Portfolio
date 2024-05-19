@@ -1,0 +1,387 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title> My Portfolio</title>
+    <link rel="stylesheet" href="/static/flash.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ </head>
+ <body>
+    <header>
+        <div class="profile">
+            <img src="static/logo-image.jpg" alt="">
+            <h1>Paras Aggarwal</h1>
+            <div class="social-icons">
+             <a href="#"><i class="fa-brands fa-facebook"></i></a>
+             <a href="https://www.instagram.com/parasaggarwal1947/"><i class="fa-brands fa-instagram"></i></a>
+             <a href="https://www.linkedin.com/in/paras-aggarwal-17650b241/"><i class="fa-brands fa-linkedin-in"></i></a>
+             <a href="https://github.com/qJNC"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#" class="active"><i class="fa-solid fa-house"></i> Home</a></li><hr><br>
+                <li><a href="#about" class="active"><i class="fa-solid fa-user"></i> About</a></li><hr><br>
+                <li><a href="#skills" class="active"><i class="fa-solid fa-book-open"></i> Skills</a></li><hr><br>
+                <li><a href="#education" class="active"><i class="fa-solid fa-graduation-cap"></i> Education</a></li><hr><br>
+                <li><a href="#portfolio" class="active"><i class="fa-solid fa-briefcase"></i> Projects</a></li><hr><br>
+                <li><a href="#services" class="active"><i class="fa-solid fa-server"></i> Services</a></li><hr><br>
+                <li><a href="#contact" class="active"><i class="fa-solid fa-envelope"></i> Contact Me</a></li><hr><br>
+            </ul>
+        </nav>
+        <div class="footer">
+            <p>&Copy:<i class="fa-solid fa-copyright"></i>2024 Designed By Paras Aggarwal</p>
+        </div>
+    </header>
+    <i class="fa-solid fa-bars" id="MenuBtn"></i>
+
+    <main>
+        <section id="home">
+            <div class="home-row">
+                <h1> Hi, This is <br>  Paras Aggarwal<span>.</span></h1>
+                <p> I'm a <span id="auto-input"></span></p><br>
+                <a href="C:\Users\paras\Desktop\My Portfolio\MyPort\static\Paras_Resume.pdf" class="btn">Download CV </a>
+            </div>
+        </section>
+        
+        <section id="about">
+            <h1 class="sub-heading"> About Me </h1>
+            <div class="divider"></div>
+            <p class="sub-para"> Enthusiastic and Ambitious Developer. Eager to use my programming skills and effective communication to become a Software or AI Developer in a
+                collaborative environment to provide technical solutions. I never backdown from learning a new skill to enhance my skillset and become a valuable
+                asset not just to me but to the organization itself in order to scale further.</p><br><br>
+            <div class="about-col">
+                <div class="img-col">
+                    <img src="static/me.jpg " alt="">
+                </div>
+                <div class="info-col">
+                    <h2> DJANGO  DEVELOPER </h2>
+                    <p>Assessing client goals and using the Python framework to build websites, software, and applications that meet their needs.</p>
+                    <div class="icon-list-col">
+                        <div class="icon-list">
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Website:</strong><span>  www.parasagg.com</span></li>
+                                <li><i class="fa-solid fa-phone"></i><strong>Phone:</strong><span> +91 7404165298</span></li>
+                                <li><i class="fa-solid fa-envelope"></i><strong>Email:</strong><span> parasaggarwal1947@gmail.com</span></li>
+                            </ul>
+                        </div>
+                        <div class="icon-list">
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Degree:</strong><span>  BTECH (CSE)</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Date of Birth:</strong><span>  09-09-2002</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>City:</strong><span>  Rohtak,Haryana,India</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn"> Hire Me </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="fact">
+            <h1 class="sub-heading"> FACT </h1>
+            <div class="divider"></div>
+            <p class="sub-para">When I working in Company then</p><br><br>
+            <div class="fact-row">
+                <div class="fact-box">
+                    <i class="fa-solid fa-face-smile"></i>
+                    <strong> 10+</strong>
+                    <p> Happy Clients </p>
+                </div>
+                <div class="fact-box">
+                    <i class="fa-brands fa-file-code"></i>
+                    <strong>5</strong>
+                    <p> Projects Completed</p>
+                </div>
+                <div  class="fact-box">
+                    <i class="fa-solid fa-headset"></i>
+                    <strong> 24/7 </strong>
+                    <p> Hours of support </p>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="skills">
+            <h1 class="sub-heading"> Skills </h1>
+            <div class="divider"></div>
+            <p class="sub-para">I having different types of skills . Check it out!</p><br>
+            <div class="skill-row">
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2> HTML </h2>
+                        <h2> 95% </h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2> CSS </h2>
+                        <h2> 85% </h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2> JAVASCRIPT </h2>
+                        <h2> 85% </h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2> PYTHON </h2>
+                        <h2> 95% </h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2> DJANGO </h2>
+                        <h2> 98% </h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 98%"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2> SQL </h2>
+                        <h2> 98% </h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 98%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <h1 class="sub-heading"> Education </h1>
+            <div class="divider"></div>
+            <p class="sub-para">I educate from reputed schools and institutions.Check it out!</p>
+            <div class="edu-row">
+                <div class="edu-cols">
+                    <h2> Summary </h2>
+                    <div class="my-info">
+                        <h3>Paras Aggarwal</h3>
+                        <p>Enthusiastic and Ambitious Developer. Eager to use my programming skills and effective communication to become a Software or AI Developer in a
+                            collaborative environment to provide technical solutions. I never backdown from learning a new skill to enhance my skillset and become a valuable
+                            asset not just to me but to the organization itself in order to scale further.</p>
+                        <ul>
+                            <li>Haryana,India</li>
+                            <li> +91 7404165298 </li>
+                            <li> parasaggarwal1947@gmail.com </li>
+                        </ul>
+                    </div>
+                    <div class="my-edu">
+                        <h3> Bachelor  of Technology (B.Tech) in Computer Science and Engineering </h3>
+                        <span class="sp-box">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 2020-2024
+                        </span>
+                        <p> Dr.Akhilesh Das Gupta Institute of Technology and Management </p>
+                        <p>IPU Affiliated college in Shadara,Delhi</p>
+                    </div>
+                </div>
+                <div class="edu-cols">
+                    <h2> Professional Experience </h2>
+                    <div class="pro-exp">
+                        <h3> Web  Developer Internship </h3>
+                        <span class="sp-box"><i class="fa fa-calendar" aria-hidden="true"></i> OCTOBER 2023 - NOVEMBER 2023</span>
+                        <p><i class="fa-solid fa-location-crosshairs"></i> VaultofCodes, Work from Home </p>
+                        <ul>
+                            <li>Developed a web application using Django for managing user data.</li>
+                            <li>Built responsive UI using HTML/CSS and JavaScript.</li>
+                            <li>Implemented authentication system with OAuth2.0 protocols.</li>
+                        </ul>
+                    </div>
+                    <div class="pro-exp">
+                        <h3> Artificial - Intelligence/ Machine Learning Internship </h3>
+                        <span class="sp-box"><i class="fa fa-calendar" aria-hidden="true"></i>  AUGUST 2022 - OCTOBER 2022</span>
+                        <p><i class="fa-solid fa-location-crosshairs"></i> IBM, DELHI </p>
+                        <ul>
+                            <li>Developed a web application using Django for managing user data.</li>
+                            <li>Built responsive UI using HTML/CSS and JavaScript.</li>
+                            <li>Working on Machine Learning Algorithms and uses this alogithm on web.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h1 class="sub-heading"> My Projects </h1>
+            <div class="divider"></div>
+            <p class="sub-para">Here is my projects please check it out!</p><br><br>
+            <div class="port-row">
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="static/web-design-header.jpg" alt="">
+                    </div>
+                    <div class="port-info">
+                        <h4>Web Designing(Portfolio)</h4>
+                        <p>I created portfolio website just check it out!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="port-item">
+                    <div class="port-img">
+                        <a href="https://github.com/qJNC/Todolist-project"><img src="static/todolist.png" alt=""></a>
+                    </div>
+                    <div class="port-info">
+                        <h4>TO-DO LIST </h4>
+                        <p>I created to-do list website just check it out!</p>
+                        <a href="https://github.com/qJNC/Todolist-project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="port-item">
+                    <div class="port-img">
+                        <a href="https://github.com/qJNC/HeartSage"><img src="static/download.jpg" alt=""></a>
+                    </div>
+                    <div class="port-info">
+                        <h4>HEART PREDICTION </h4>
+                        <p>I created heart diesase prediction website just check it out!</p>
+                        <a href="https://github.com/qJNC/HeartSage"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="port-item">
+                    <div class="port-img">
+                        <a href="https://github.com/qJNC/Eshopping-Project"><img src="static/ecommerce.jpeg" alt=""></a>
+                    </div>
+                    <div class="port-info">
+                        <h4>E-commerce Website</h4>
+                        <p>I created Ecommerce website just check it out!</p>
+                        <a href="https://github.com/qJNC/Eshopping-Project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="port-item">
+                    <div class="port-img">
+                        <a href="https://github.com/qJNC/Visualizer_dashboard"><img src="static/visualize.jpeg" alt=""></a>
+                    </div>
+                    <div class="port-info">
+                        <h4>Visualizer Dashboard</h4>
+                        <p>I created visualizer Dashboard just check it out!</p>
+                        <a href="https://github.com/qJNC/Visualizer_dashboard"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h1 class="sub-heading"> Services </h1>
+            <div class="divider"></div>
+            <p class="sub-para">Here the services that i provide just check it out!</p><br><br>
+            <div class="service-row">
+                <div class="service-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-code code"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>Front -End  Development</h4>
+                        <p>I have a strong background in front end development. I am familiar with HTML, CSS and JAVASCRIPT</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="icon">
+                        <i class="fa-brands fa-python py"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>Backend -End  Development</h4>
+                        <p>I have a strong background in back end development. I am familiar with DJANGO</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-brain ba"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>Supervised Machine Leaning</h4>
+                        <p>I have a strong background in Supervised ML. I am familiar with Numpy , Pandas, Matplotlib, Seaborn and Scikit-learn for data visualization.</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-database db"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>SQL Database</h4>
+                        <p>I have a strong background in database . I am familiar  with SQL and can work on databases as well.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        <section id="contact">
+            <h1 class="sub-heading"> Contact Me </h1>
+            <div class="divider"></div>
+            <p class="sub-para">Here  is how you can contact me:</p>
+            <div class="contact-row">
+                <div class="contact-left">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Email:</h4>
+                            <p>parasaggarwal1947@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Phone:</h4>
+                            <p>+91 7404165298</p>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Location:</h4>
+                            <p>Rohtak,Haryana,India</p>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13973.645013243044!2d76.62147619729785!3d28.88612489650081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d84d7d95e06cd%3A0x5164a95895ddb013!2sSector-1%2C%20Rohtak%2C%20Haryana%20124001!5e0!3m2!1sen!2sin!4v1708196583015!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        
+                        <input type="text" name="name" id= "name" placeholder="Your Name" required>
+                        <input type="email" name="email" id= "email" placeholder=" Your Email-Id" required>
+                        <input type="text" name="phone" id= "phone" placeholder=" Your phone Number" required>
+                        <textarea name="msg" id="msg" rows="9" placeholder=" Your Message"></textarea>
+                        <input type="submit" value="send Message">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="static/port.js"></script>
+</body>
+</html>
+
+
+            
+            
+            
+
+            
+                
+
+
+                                
